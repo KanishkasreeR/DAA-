@@ -27,7 +27,6 @@ void _search(string text, string pattern) {
       }
       else
          s += j - badCharacter[text[s + j]];
-         cout<<"pos: "<<s;
    }
 }
 
